@@ -1,0 +1,26 @@
+print('Please enter the following:')
+print()
+Adjective = input('adjective: ')
+animal = input('animal: ')
+First_verb = input('verb: ')
+exclamation = input('exclamation: ')
+second_verb = input('verb: ')
+third_verb = input('verb: ')
+A_relative = input('relative: ')
+Fourth_verb = input('verb: ')
+last_adjective = input('adjective: ')
+print()
+print('Your story is: ')
+print()
+print('The other day, I was really in trouble. It all started when I saw a very')
+print(f'{Adjective} {animal} {First_verb} down the hallway. "{exclamation.title()}!" I yelled. But all')
+print(f'I could think to do was to {second_verb} over and over. Miraculously,')
+print(f'that caused it to stop, but not before it tried to {third_verb}')
+print(f'right in front of my family.')
+# I decided to add a bit more because I love cats.
+# And I thought it would be more fun if there was a bit more family participation.
+print(f'Despite everything, I could not believe it when I realized that')
+print(f'my {A_relative} was filming my reaction, but the worst part was {Fourth_verb} that')
+print(f'that {last_adjective} {animal} would be our new pet.')
+# I wanted to explore the family's reaction a bit more, so I added a relative.
+# I added another verb and a new adjective for the cat.
